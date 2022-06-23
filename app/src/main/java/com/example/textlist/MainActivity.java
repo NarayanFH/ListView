@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 ob.setC(third.getText().toString());
 
                 list.add(ob);
+
+                obj.notifyItemInserted(list.size() - 1);
 //                first.setText("");
 //                second.setText("");
 //                third.setText("");
